@@ -1,0 +1,275 @@
+@media screen and (max-width:1024px) {
+    .hero-text{
+        height: 10vh;
+        font-size: 4vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav{
+        display: none;
+    }
+    .hamburger{
+        opacity: 1;
+    }
+    .noneed{
+        display: none;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-left{
+        background-size: 100%;
+    }
+    .split-work{
+        display: none;
+    }
+    .work-contentvar{
+        display: none;
+    }
+    .work-content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0vh;
+    }
+    .work-right{
+        display: none;
+    }
+    .service-content{
+        grid-template-columns: auto;
+    }
+    .cursor{
+        display: none;
+    }
+    .contact-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ham-down{
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+    }
+    .mode{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .hamburger{
+        top: 1%;
+    }
+    
+    .hamnav-content{
+        padding: 0vh 5vh;
+    }
+    .ham-item a{
+        font-size: 5vh;
+    }
+    .ham-item img{
+        width: 3vh;
+    }
+    .hero{
+        height: fit-content;
+        padding: 10vh 0vh;
+    }
+   .hero-social{
+        display: flex;
+        margin: 6vh 0vh 4vh 0vh;
+    }
+    .herobtn{
+        display: flex;
+        flex-direction: column;
+        margin: 0vh;
+        margin: 0vh;
+    }
+    .hero-text{
+        height: 15vh;
+        font-size: 2.6vh;
+    }
+    .heading{
+        height: 12vh;
+    }
+    .heading h1 {
+        font-size: 10vh;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+    .heading h1 span{
+        text-decoration: none;
+    }
+    .about{
+        padding: 3vh 0vh;
+    }
+    .about-content{
+        padding: 5vh ;
+    }
+    .work-content{
+        padding: 2vh;
+    }
+    .work-left .work-card{
+        margin-bottom: 5vh;
+    }
+    .projects .btn{
+        margin: 0vh;
+    }
+    .foot-btn{
+        display: none;
+    }
+    .lowerfoot-right{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        margin-top: 2vh;
+        text-align: center;
+    }
+    .lowerfoot{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0vh;
+    }
+    .service-content{
+        padding: 5vh 2vh;
+    }
+         .contact-text {
+             height: 4.5vh;
+         }
+    
+         .contact-text h1 {
+             font-size: 4vh;
+         }
+    .btn{
+            font-weight: 300;
+    }
+        .heading h1 span{
+            font-size: 2.5vh;
+            margin: 0vh 1vh;
+        }
+
+    .footer{
+        padding: 5vh;
+    }
+    .work-card img{
+        border-radius: 3px;
+    }
+    .upperfoot{
+        align-items: center;
+    }
+    .head-hero{
+        height: 35vh;
+    }
+    .head-hero-text{
+        font-size: 3vh;
+        height: 7vh;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .hero{
+        height: 100vh;
+    }
+    .herotext{
+        display: none;
+    }
+    .herotextvar{
+        display: flex;
+        transform: scale(1.1);
+    }
+    .hero-textvar:nth-child(1){
+        height: 11vh;
+        font-size: 5vh;
+    }
+    .hero-textvar:nth-child(2){
+        height: 6vh;
+        font-size: 2.8vh;
+    }
+    .hero-textvar:nth-child(3){
+        height: 5vh;
+        font-size: 2.3vh;
+    }
+    .hero-textvar:nth-child(4){
+        height: 9vh;
+        font-size: 4vh;
+    }
+    .hero-textvar:nth-child(5){
+        height: 5vh;
+        font-size: 2.2vh;
+    }
+    .heading h1 {
+        font-size: 10vh;
+    }
+    .contact-content{
+        padding: 2vh;
+    }
+    .contact-text{
+        height: 5vh;
+    }
+    .contact-text h1{
+        font-size: 4vh;
+        line-height: 1;
+    }
+    .contact-left h3 {
+        font-size: 2vh;
+    }
+    .contact-left, .contact-right{
+        padding: 3vh;
+    }
+
+    .about-content{
+        padding: 5vh 2vh;
+    }
+    .about-right{
+        padding: 0vh 2vh;
+    }
+     .about-right h1{
+        margin-bottom: 3vh;
+    }
+    .about-right p{
+        padding: 3vh 0vh;
+    }
+    .serv-card h1{
+        font-size: 5vh;
+    }
+    .serv-down a{
+        font-size: 2.5vh;
+    }
+    .contact-info h2{
+        font-size: 2.5vh;
+    }
+    .work-card h2{
+        font-size: 2vh;
+    }
+   .heading {
+       height: 12.5vh;
+       scale: 0.8;
+   }
+}
+
+@media screen and (max-width:350px) {
+    .herotextvar{
+        transform: scale(0.9);
+    }
+    .ham-item a{
+        font-size: 3vh;
+    }
+    .ham-item img{
+        width: 2vh;
+    }
+}
+@media screen and (max-width:300px) {
+    .heading{
+        height: 6.5vh;
+        scale: 0.8;
+    }
+    .work-content{
+        padding: 4vh 2vh;
+    }
+    .contact-text{
+        height: 4vh;
+    }
+    .contact-text h1{
+        font-size: 3.5vh;
+    }
+}
+
